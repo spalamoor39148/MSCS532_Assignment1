@@ -1,4 +1,4 @@
-def insertion_sort(a):
+def insertion_sort(a):  ''' insertion sort for desecending order'''
     for j in range(1,len(a)):
         key=a[j]
         i=j-1
